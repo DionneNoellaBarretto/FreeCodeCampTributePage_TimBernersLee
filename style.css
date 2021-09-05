@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0.2px;
+
+}
+header {
+  text-align: center;
+  background-color: rgb(212, 212, 241);
+}
+
+header p {
+  font-family: cursive;
+}
+#tribute-timeline h2{
+  text-align: center;
+  text-decoration: underline;
+}
+em {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  text-decoration: underline;
+}
+
+#tribute-timeline div {
+  font-size: 1.2em;
+}
+
+footer {
+  text-align:center;
+  font-family: 'Tangerine', cursive;
+  font-weight: bolder;
+  font-size: 2em;
+  background-color: rgb(212, 212, 241);
+}
+
+body {
+    padding-top:0.4px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    background-color:lavender;
+  }
+  
+  h1,h2,h3 {
+    font-weight: 700;
+  }
+  
+  a {
+    color: #4145b1;
+  }
+  
+  hr {
+    margin: 1em 0 1em 0;
+    background-color: #272cc7;
+    height: 1px;
+    opacity: 0.25;
+    border: none;
+  }
+  
+  #tribute-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  
+  #img-div {
+    display: grid;
+    justify-items: center; 
+    align-items: center;
+    height: 600px;
+  }
+  
+  
+  #img-caption blockquote {
+    color: rgb(236, 235, 235);
+    z-index: 9999;
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+
+  #img-caption blockquote .right {
+text-align: right;
+  }
+  
+  
+  #img-div img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  #img-caption a {
+    color: #fff;
+  }
+  
+  #img-caption {
+    background: rgb(58, 58, 58);
+    width: 480px;
+    opacity: 0.9;
+    right: 6em;
+    position: relative;
+    z-index: 9999;
+    top: -175px;
+    padding: 0.25em;
+  }
+  
+  #tribute-info {
+    width: 70%;
+    display: grid;
+    margin: 0 auto;
+    line-height: 1.68em;
+  }
+  
+  #tribute-timeline a {
+    font-weight: 800;
+  }
+  
+  #tribute-info h1 {
+    font-size: 4em;
+    margin-bottom: .75em;
+    line-height: 1em;
+  }
+  
+  #tribute-links {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  #tribute-links a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #fas{
+color: #000000;
+  }
+  #tribute-links i {
+    font-size: 1.25em;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    #tribute-container {
+      grid-template-columns: 1fr;
+    }
+    #tribute-info {
+      margin-bottom: 2em;
+    }
+  
+    #tribute-links {
+      position: relative;
+      margin-bottom: 0;
+    }
+  
+    #img-caption {
+      width: 70%;
+      position: relative;
+      top: auto;
+      right: auto;
+      margin-top: .5rem;
+      background-color: transparent;
+    }
+    
+    #img-caption blockquote {
+      color: #333;
+    }
+    #img-caption a {
+      color: #4145b1;
+    }
+  }
+  

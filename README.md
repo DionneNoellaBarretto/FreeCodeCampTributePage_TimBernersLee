@@ -1,5 +1,5 @@
 # FreeCodeCamp_TributePage - Tim Berners Lee
-A tribute to the Father of the World Wide Web!
+A tribute to the Father of the World Wide Web - Tim Berners Lee!
 
 # Task Instructions
 This exercise is an attempt to meet the requirements for [FreeCodeCamp's Project Exercise1](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)

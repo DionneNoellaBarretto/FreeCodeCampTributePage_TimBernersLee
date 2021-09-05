@@ -1,45 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Learning Web Development</title>
-    </head>
 
-    <style>
-        #image {
-          text-align: center;
-          display: block;
-        }
-        img{
-        max-width: 100%;
-    }
-    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tim Berners Lee</title>
+</head>
 
-    <body>
+<body>
+    <header id="title">
+        <h1>Tim Berners Lee</h1>
+        <p> <span><a href="#image">Tim Berners Lee(Timbo) </a></span>is a British computer scientist who invented the World Wide Web(WWW). 'Timbo' enabled a system to be able to view web pages i.e. hypertext documents via the internet. He serves as a <a href="https://www.w3.org/People#:~:text=Tim%20Berners%2DLee&text=Tim%20is%20now%20the%20overall%20Director%20of%20the%20W3C." target="_blank">director of World Wide Web Consortium (W3C)</a> that overseas standards for the internet & world wide web! <a href="https://www.google.com/search?q=tim+berners+lee&sxsrf=AOaemvK-8v2cPq0SH-2D65ImUDkPE-x-wQ:1630874400396&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjjzbvK2OjyAhVMU98KHc7jCBkQ_AUoAnoECAEQBA&biw=1500&bih=896&dpr=2" target="_blank">Berners-Lee</a> is known for his concerns about issues relating to freedom of information & the censorship on the internet.
+        </p>
+        
+    </header>
+    <main id="main">
+        <br>
+        <div id="tribute-container">
+            <div id="tribute-info">
+                <section>
+                    <div id="tribute-timeline">
+                        <h2>Timeline of Events</h2>
+                        <div><strong><em>1955</em></strong>: Born to parents Conway Berners Lee and Mary Lee Woods in London England</div>
+                        <hr>
+                        <div><strong><em>1963 to 1973</em></strong>: Attended Emanual School at London
+                        </div>
+                        <hr>
+                        <div><strong><em>1973 to 1976</em></strong>: Graduated from the Queens College,
+                            Oxford University England where he received a 1st class degree in physics</div>
+                        <hr>
+                        <div><strong><em>1980</em></strong>: Contracted at CERN as a software consultant where he created the idea of sharing ideas quickly via a system called `Enquire` </div>
+                        <hr>
+                        <div><strong><em>1981</em></strong>: Commenced a new job in computer networking called John Pooles image computer systems</div>
+                        <hr>
+                        <div><strong><em>1984</em></strong>: Returned to CERN with a permanent position </div>
+                        <hr>
+                        <div><strong><em>1989</em></strong>: Tim noted he could join a company called CERN - the largest internet node in Europe </div>
+                        <hr>
+                        <div><strong><em>1991</em></strong>: First Website
+                            First website was built at CERN and put online on the 6th August.</div>
+                        <hr>
+                        <div><strong><em>1994</em></strong>: Became 1 of 6 members founding the `World Wide Web` aimed to improve the standards and allow anyone to be able to access the web freely.</div>
 
-        <main id="main">
-            <header id="title"> Resources to Learn Web Development</header>
-            <nav> 
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                </ul>
-            </nav>
-        <div id="img-div">
-            <img id="image" src="ADD YOUR SOURCE" alt="YOUR DESCRIPTION">
-                <h2 id="img-caption"> 
-                YOUR DESCRIPTION</h2>
+                        <!-- Media links -->
+                        <aside>
+                            <div id="tribute-links">
+                                <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"><i
+                                        class="fab fa-wikipedia-w"></i></a>
+                                <a href="https://twitter.com/timberners_lee" target="_blank"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="https://www.w3.org/People/Berners-Lee/" target="_blank"><i
+                                        class="fas fa-scroll"></i></a>
+                            </div>
+                        </aside>
+                    </div>
+                </section>
+            </div>
+
+            <div id="img-div">
+                <div>
+                    <img id="image" class="image" src="https://www.w3.org/Press/Stock/Berners-Lee/TimBL-color-300.jpeg"
+                        alt="Image of Tim Berners Lee">
+                </div>
+                <div id="img-caption">
+
+                    <!--  Timbo's Quote -->
+                    <blockquote
+                        cite="https://www.google.com/search?q=tim+berners+lee+quotes&oq=tim&aqs=chrome.1.69i57j35i39l2j69i60l3j69i65l2.4881j0j4&sourceid=chrome&ie=UTF-8">
+                        <p>
+                            <i class="fa fa-quote-left"></i>
+                            Web users ultimately want to get at data quickly and easily. They don't care as much
+                            about attractive sites and pretty design.
+                            <i class="fa fa-quote-right"></i>
+                        </p>
+                        <p class="right"> —Tim Berners Lee, <a
+                                href="https://www.google.com/search?q=tim+berners+lee+quotes&oq=tim&aqs=chrome.1.69i57j35i39l2j69i60l3j69i65l2.4881j0j4&sourceid=chrome&ie=UTF-8"><i>W3C</i></a>
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
         </div>
-            <article id="tribute-info"> Tribute Info 
-                    <a target="_blank" id="tribute-link" href="tribute-link">this link. </a> 
-            </article>
-        </main>
-        <footer>
+    </main>
 
-        </footer>
-    </body>
+</body>
+<footer>
+    <strong>
+        <h5>A tribute to Tim Berners Lee by <a href="https://github.com/DionneNoellaBarretto" target="_blank">Dionne Noella Barretto </a>, an aspiring Full Stack Developer!
+        </h5>
+    </strong>
+</footer>
 </html>
