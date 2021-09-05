@@ -25,3 +25,18 @@ This exercise is an attempt to meet the requirements for [FreeCodeCamp's Project
 👉User Story #9: The img element should be centered within its parent element. 
 ```
 
+--------------------------------
+# DNB's SOLUTION: 
+
+FreeCodeCamp Submission: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/FreeCodeCampTributePage_TimBernersLee) | 📄[Github Page](https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/)
+Other Practice Attempt Solutions: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/FreeCodeCamp_Projects) 
+
+--------------------------------
+
+## Mock-Up
+
+The following image shows the web pages's appearance and functionality:
+<img src="./TributePage.png">
+
+Web pages's pass test results:
+<img src="./PassTestResults.png">
